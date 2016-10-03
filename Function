@@ -1,0 +1,15 @@
+#include "stdio.h"
+
+void myprint(char* string) {
+
+        printf("%s", string);
+
+}
+
+int main() {
+
+        myprint("Hello World\n");
+
+        return 0;
+
+}
